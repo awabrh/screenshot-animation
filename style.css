@@ -1,0 +1,189 @@
+.box{
+    position: absolute;
+    display: inline-block;
+}
+
+.sreen0{   
+    animation-name: firstScreen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite
+}
+
+.sreen1{
+    animation-name: secondScreen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.sreen2{
+    animation-name: thirdScreen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite
+}
+
+.sreen3{
+    animation-name: fourthScreen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite
+}
+
+.sreen4{
+    animation-name: fifthScreen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite
+}
+
+.sreen5{
+    animation-name: sixthScreen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite
+}
+
+
+@keyframes firstScreen {
+    0% {
+        display: block;
+        opacity: 1;
+    }
+
+    16.7% {
+        display: block;
+        opacity: 0;
+    }
+
+    83.3% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes secondScreen {
+    0% {
+        display: block;
+        opacity: 0;
+    }
+
+    16.7% {
+        display: block;
+        opacity: 1;
+    }
+
+    33.3% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: none;
+        opacity: 0;
+    }
+}
+
+@keyframes thirdScreen {
+    0% {
+        display: block;
+        opacity: 0;
+    }
+
+    16.7% {
+        display: block;
+        opacity: 0;
+    }
+
+    33.3% {
+        display: block;
+        opacity: 1;
+    }
+
+    50% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 0;
+    }
+
+}
+
+@keyframes fourthScreen {
+    0% {
+        display: block;
+        opacity: 0;
+    }
+
+    33.3% {
+        display: block;
+        opacity: 0;
+    }
+
+    50% {
+        display: block;
+        opacity: 1;
+    }
+
+    66.7% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: none;
+        opacity: 0;
+    }
+}
+
+@keyframes fifthScreen {
+    0% {
+        display: block;
+        opacity: 0;
+    }
+
+    50% {
+        display: block;
+        opacity: 0;
+    }
+
+    66.7% {
+        display: block;
+        opacity: 1;
+    }
+
+    83.3% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: none;
+        opacity: 0;
+    }
+}
+
+@keyframes sixthScreen {
+    0% {
+        display: block;
+        opacity: 0;
+    }
+
+    66.7% {
+        display: block;
+        opacity: 0;
+    }
+
+    83.3% {
+        display: block;
+        opacity: 1;
+    }
+
+    100% {
+        display: block;
+        opacity: 0;
+    }
+}
